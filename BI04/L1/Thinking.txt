@@ -18,6 +18,13 @@ Thinking3	如果给一个视频打标签，视频中有音乐作为背景音乐�
 噪音可能会很大，导致打的标签不够准确。
 
 
+什么是推荐系统：
+using data： 相似度  
+solve problems 推荐
+
+Exploit & Explore（利用与探索） 
+Exploit:充分利用已有资源
+Explore：认识未知的世界
 
 			
 Action1	针对mnist数据集进行分类，采用CART决策树（工具使用sklearn中的CART），可以参考课程代码 mnist_lr.py	MNIST	

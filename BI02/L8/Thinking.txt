@@ -1,0 +1,11 @@
+Thinking1	什么是近似最近邻查找，常用的方法有哪些			"能简要说明近似最近邻查找（5point）
+常用的方法（5point）"
+Thinking2	为什么两个集合的minhash值相同的概率等于这两个集合的Jaccard相似度			"能简要说明MinHash值相同的概率与Jaccard相似度相等的证明（10point）
+
+"
+Thinking3	SimHash在计算文档相似度的作用是怎样的？			"1、文档SimHash的计算过程（5points）
+2、如何通过文档的SimHash计算文档之间的相似度（5points）"
+Thinking4	为什么YouTube采用期望观看时间作为评估指标			能简要说明原因（10points）
+Action1	"使用MinHashLSHForest对微博新闻句子进行检索 weibo.txt
+针对某句话进行Query，查找Top-3相似的句子"			"1、完成代码（30points）
+2、使用MinHashLSHForest工具对MinHash进行index，并完成Query Top-K，代码正确（30points）"

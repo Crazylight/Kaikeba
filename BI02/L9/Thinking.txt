@@ -1,0 +1,23 @@
+Thinking1	排序模型按照样本生成方法和损失函数的不同，可以划分成Pointwise, Pairwise, Listwise三类方法，这三类排序方法有何区别			能简要说明这三类方法的区别（10points）
+Thinking2	排序模型按照结构划分，可以分为线性排序模型、树模型、深度学习模型，这些模型都有哪些典型的代表？			"能简要说明这三类模型的典型代表（10points）
+
+"
+Thinking3	NDCG如何计算			能说明CG, DCG, IDCG, NDCG的计算过程（10points）
+Thinking4	搜索排序和推荐系统的相同和不同之处有哪些			"能简要说明相同之处（5points）
+能简要说明不同之处（5points）"
+Thinking5	Listwise排序模型能否应用到推荐系统中			能简要说明原因（10points）
+Action1	"假设你在某车企工作，想要了解该车企旗下所有车型的媒体影响力，以及相关竞品车型的影响力
+Step1，数据采集
+抓取大众旗下所有SUV车型
+设计SQL数据表
+car_basic，car_weibo，car_douyin，car_news，car_stats
+采集不同渠道的数据（自己抓取或通过API）
+Step2，数据分析
+计算car index（不同渠道的指数，综合指数）
+Step3，可视化呈现"			"1、完成数据采集（20points）
+2、数据分析，计算指标（10points）
+3、数据呈现（10points）
+"
+Action2	"熟悉RankLib的使用，针对MQ2008数据集中的Fold1，使用RankNet, ListNet, LambdaMart三种模型进行排序学习，并对比三种模型的NDCG@10结果
+"	https://www.microsoft.com/en-us/research/project/letor-learning-rank-information-retrieval/		"能正确使用RankLib完成三种模型的排序学习（5points）
+能使用RankLib对三种模型的结果进行比对（5points）"
